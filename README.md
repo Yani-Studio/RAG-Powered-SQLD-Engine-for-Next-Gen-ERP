@@ -140,7 +140,5 @@
   <p><i>“The Definitive RAG and SQLD Framework for Enterprise ERP”</i></p>
 </div>
 
-### FAQ
-
 
 
