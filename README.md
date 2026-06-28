@@ -43,15 +43,15 @@
 
 ## 🏆 Performance Benchmarks
 
-로컬 LLM들의 NL2SQL 변환 성능 및 자가 치유 능력 비교표입니다. (1,000건 이상의 자체 생성 벤치마크 테스트 기준)
+데이터 누수(Data Leakage)를 완벽하게 배제하고, 엄격하게 통제된 **208개의 검증용 질의(Validation Set)**를 대상으로 측정한 최종 NL2SQL 성능 지표입니다.
 
-| LLM Model | Parameters | Exact Match (%) | Execution Success (%) |
-|:---|:---:|:---:|:---:|
-| 🥇 **Qwen2.5-Coder** | 14B | **100.0%** | **100.0%** |
-| 🥈 **Codestral (Mistral)** | 13B | 98.5% | 100.0% |
-| 🥉 **Phi-3** | 14B | 95.0% | 98.0% |
-| 🎖️ **Llama 3.1** | 8B | 92.0% | 96.5% |
-| 🎖️ **Gemma 2** | 9B | 88.0% | 91.0% |
+| Rank | Model Name | Value Match | Exact Match | Avg. Latency | Errors / Auto-Correction |
+|:---:|:---|:---:|:---:|:---:|:---:|
+| 🥇 **1st** | **Codestral** | **100% (208/208)** | 85.6% | 1.65 ms | 0 |
+| 🥈 **2nd** | **Gemma 2 9B** | 99.5% (207/208) | 87.5% | 1.70 ms | 4 |
+| 🥉 **3rd** | **Qwen 2.5 Coder 14B** | 98.1% (204/208) | **91.3%** | **1.46 ms** | 0 |
+| 🏅 **4th** | **Phi-3 14B** | 98.1% (204/208) | 77.9% | 1.77 ms | 2 |
+| 🏅 **5th** | **Llama 3.1 8B** | 97.6% (203/208) | 90.9% | 1.70 ms | 3 |
 
 ### 📊 Benchmark Visualizations
 아래는 주피터(Jupyter) 환경에서 추출된 종합 성능 및 RAG 분석 자료입니다. 각 시각화 자료는 본 모델의 독보적인 데이터 분석 능력을 증명합니다.
