@@ -6,8 +6,9 @@
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg?logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/LLM-Ollama-black.svg?logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Database-SQLite-003B57.svg?logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <br><br>
+  
+  <p>⚠️ <b>Copyright Notice</b><br>Copyright (c) 2026 Kang Gyu Min. All rights reserved.</p>
   
   <p><b>An Autonomous AI Framework that Understands Natural Language, Generates SQL, and Analyzes ERP Data</b></p>
 </div>
