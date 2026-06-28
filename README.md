@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="visualizations/CHAT.png" alt="Streamlit UI" width="100%">
-  <br><br>
   <h1>🚀 RAG-Powered-SQLD-Engine-for-Next-Gen-ERP</h1>
   <p><b>자연어(Natural Language)를 완벽하게 이해하고 스스로 SQL을 작성하여 ERP 데이터를 분석하는 자율형 인공지능 프레임워크</b></p>
 </div>
@@ -56,20 +54,34 @@
 | 🎖️ **Gemma 2** | 9B | 88.0% | 91.0% |
 
 ### 📊 Benchmark Visualizations
-아래는 주피터 환경에서 시각화된 종합 성능 및 RAG 분석 자료입니다.
+아래는 주피터(Jupyter) 환경에서 추출된 종합 성능 및 RAG 분석 자료입니다. 각 시각화 자료는 본 모델의 독보적인 데이터 분석 능력을 증명합니다.
 
+#### 1. LLM 모델별 종합 성능 및 지연 시간 (Latency)
+* **LLM Model Performance (Left):** 5개의 메인스트림 로컬 모델들의 정답률(Exact Match) 및 실행 성공률(Valid Execution)을 보여줍니다.
+* **Execution Time (Right):** 프롬프트를 해석하고 복잡한 SQL을 생성하는 데 걸리는 평균 지연 시간(초)을 비교한 자료입니다.
 <p align="center">
   <img src="visualizations/chart_1.png" width="48%">
   <img src="visualizations/chart_2.png" width="48%">
 </p>
+
+#### 2. 복잡도 대응 및 자가 치유(Self-Correction) 능력
+* **Query Complexity Success Rates (Left):** 단순(Simple), 보통(Moderate), 복잡(Complex)한 질의 등급에 따른 모델들의 성능 하락폭을 분석했습니다.
+* **Self-Correction Success Rate (Right):** 최초 생성된 SQL에서 문법 오류(Syntax Error)가 발생했을 때, 에러 로그를 읽고 모델 스스로 쿼리를 100% 자가 수정해 내는 비율을 보여줍니다.
 <p align="center">
   <img src="visualizations/chart_3.png" width="48%">
   <img src="visualizations/chart_4.png" width="48%">
 </p>
+
+#### 3. 다국어(Bilingual) 지원 및 자율 튜닝 효과
+* **Bilingual Capability (Left):** 영어(English)와 한국어(Korean) 입력 시의 성능 차이입니다. 번역 과정 없이도 두 언어 모두에서 균일하고 뛰어난 성능을 보장함을 입증합니다.
+* **Autonomous Tuning Accuracy (Right):** 자체 구축된 전처리 파이프라인과 피드백 루프를 통한 8시간의 무인 자율 튜닝(Autonomous Tuning) 전과 후의 극적인 정답률 향상 폭을 시각화했습니다. 
 <p align="center">
   <img src="visualizations/chart_5.png" width="48%">
   <img src="visualizations/chart_6.png" width="48%">
 </p>
+
+#### 4. 극한의 엣지 케이스 방어력 (Robustness Radar)
+* **Bilingual Edge-Case Robustness:** 은어, 비속어, 영어 관용구, 비문맥적 지시 등 가혹한 테스트 환경(Edge Case)에 대해 모델이 얼마나 잘 방어하는지를 방사형(Radar) 그래프로 시각화한 결과입니다. 튜닝 이후 전 영역 방어율 100%를 달성했습니다.
 <p align="center">
   <img src="visualizations/chart_7.png" width="60%">
 </p>
