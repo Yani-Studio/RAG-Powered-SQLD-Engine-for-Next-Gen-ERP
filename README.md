@@ -1,13 +1,14 @@
 <div align="center">
+  <h1>🚀 RAG-Powered-SQLD-Engine-for-Next-Gen-ERP</h1>
+  
   <!-- Badges -->
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg?logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/LLM-Ollama-black.svg?logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Database-SQLite-003B57.svg?logo=sqlite&logoColor=white" alt="SQLite">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  
   <br><br>
-  <h1>🚀 RAG-Powered-SQLD-Engine-for-Next-Gen-ERP</h1>
+  
   <p><b>An Autonomous AI Framework that Understands Natural Language, Generates SQL, and Analyzes ERP Data</b></p>
 </div>
 
