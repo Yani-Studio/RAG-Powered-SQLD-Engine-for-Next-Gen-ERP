@@ -24,11 +24,15 @@
       Whether you input casual queries or complex analytical commands, the AI interprets the database schema, generates precise SQL statements, executes them on an SQLite backend, and utilizes a <b>Self-Correction (Reflexion) Loop</b> to fix syntax errors autonomously. The engine then returns data-driven business insights alongside perfectly formatted tables.<br><br>
       <i>"Leave the complex SQL queries to the AI. Focus entirely on business insights."</i>
     </td>
-    <td width="40%" align="center" valign="top">
+    <td width="40%" align="center" valign="middle">
       <img src="visualizations/erp.png" alt="Real ERP Data Analytics Dashboard" width="100%" style="border-radius: 10px;">
     </td>
   </tr>
 </table>
+
+> [!IMPORTANT]
+> 🔒 **Enterprise-Grade Security & Data Privacy (100% Local Inference)**
+> Unlike cloud-based AI solutions (e.g., ChatGPT, Claude) that transmit sensitive corporate data to external servers, this framework operates entirely on **Local LLMs via Ollama**. Your proprietary ERP schemas, financial logs, and HR information never leave your internal network, ensuring absolute data privacy and compliance with strict enterprise security standards.
 
 <br>
 
