@@ -16,11 +16,19 @@
 <br>
 
 ## ✨ Introduction
-This project is a next-generation SQL Data (SQLD) engine combining the reasoning capabilities of **Large Language Models (LLMs)** with a **Retrieval-Augmented Generation (RAG)** architecture. It allows users to seamlessly control and analyze Enterprise Resource Planning (ERP) databases using natural language without writing a single line of code.
 
-Whether you input casual queries or complex analytical commands, the AI interprets the database schema, generates precise SQL statements, executes them on an SQLite backend, and utilizes a **Self-Correction (Reflexion) Loop** to fix syntax errors autonomously. The engine then returns data-driven business insights alongside perfectly formatted tables.
-
-> "Leave the complex SQL queries to the AI. Focus entirely on business insights."
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      This project is a next-generation SQL Data (SQLD) engine combining the reasoning capabilities of <b>Large Language Models (LLMs)</b> with a <b>Retrieval-Augmented Generation (RAG)</b> architecture. It allows users to seamlessly control and analyze Enterprise Resource Planning (ERP) databases using natural language without writing a single line of code.<br><br>
+      Whether you input casual queries or complex analytical commands, the AI interprets the database schema, generates precise SQL statements, executes them on an SQLite backend, and utilizes a <b>Self-Correction (Reflexion) Loop</b> to fix syntax errors autonomously. The engine then returns data-driven business insights alongside perfectly formatted tables.<br><br>
+      <i>"Leave the complex SQL queries to the AI. Focus entirely on business insights."</i>
+    </td>
+    <td width="40%" align="center" valign="top">
+      <img src="visualizations/erp.png" alt="Real ERP Data Analytics Dashboard" width="100%" style="border-radius: 10px;">
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -148,6 +156,7 @@ The development of this project was inspired by and built upon the following exc
 * **[Ollama](https://ollama.com/):** For providing the blazing-fast local LLM inference engine that powers our NLP layer.
 * **[Streamlit](https://streamlit.io/):** For the rapid development of the interactive, data-driven web application interface.
 * **[Matplotlib & Seaborn](https://matplotlib.org/):** Used extensively for rendering our high-quality visual benchmarks and schema diagrams.
+* **[Unsplash (Carlos Muza)](https://unsplash.com/photos/1460925895917-afdab827c52f):** High-quality business and ERP analytics stock photo used in the introduction.
 
 <br>
 
