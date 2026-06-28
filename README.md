@@ -68,13 +68,13 @@ The engine features an intuitive, modern interface built on **Glassmorphism & Da
 
 Below are the final NL2SQL performance metrics evaluated on a strictly controlled **Validation Set of 208 complex queries**. Data leakage was completely eliminated to ensure robust, real-world zero-shot capabilities.
 
-| Rank | Model Name | Value Match | Exact Match | Avg. Latency | Errors / Auto-Correction |
+| Rank | Model Name | Value Match | Exact<br>Match | Avg.<br>Latency | Errors / Auto-<br>Correction |
 |:---:|:---|:---:|:---:|:---:|:---:|
-| 🥇 **1st** | **Codestral** | **100% (208/208)** | 85.6% | 1.65 ms | 0 |
-| 🥈 **2nd** | **Gemma 2 9B** | 99.5% (207/208) | 87.5% | 1.70 ms | 4 |
-| 🥉 **3rd** | **Qwen 2.5 Coder 14B** | 98.1% (204/208) | **91.3%** | **1.46 ms** | 0 |
-| 🏅 **4th** | **Phi-3 14B** | 98.1% (204/208) | 77.9% | 1.77 ms | 2 |
-| 🏅 **5th** | **Llama 3.1 8B** | 97.6% (203/208) | 90.9% | 1.70 ms | 3 |
+| 🥇 **1st** | **Codestral** | **100%**<br>(208/208) | 85.6% | 1.65 ms | 0 |
+| 🥈 **2nd** | **Gemma 2 9B** | 99.5%<br>(207/208) | 87.5% | 1.70 ms | 4 |
+| 🥉 **3rd** | **Qwen 2.5 Coder<br>14B** | 98.1%<br>(204/208) | **91.3%** | **1.46 ms** | 0 |
+| 🏅 **4th** | **Phi-3 14B** | 98.1%<br>(204/208) | 77.9% | 1.77 ms | 2 |
+| 🏅 **5th** | **Llama 3.1 8B** | 97.6%<br>(203/208) | 90.9% | 1.70 ms | 3 |
 
 ### 📊 Benchmark Visualizations
 The visual analytics extracted from the Jupyter environment below demonstrate the exceptional data analysis capabilities of the integrated models.
